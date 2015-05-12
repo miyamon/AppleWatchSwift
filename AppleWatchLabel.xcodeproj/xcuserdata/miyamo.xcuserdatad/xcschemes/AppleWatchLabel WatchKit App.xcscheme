@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B14011521B009F36008DB534"
+               BuildableName = "AppleWatchLabel WatchKit App.app"
+               BlueprintName = "AppleWatchLabel WatchKit App"
+               ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B140111F1B009F16008DB534"
                BuildableName = "AppleWatchLabel.app"
                BlueprintName = "AppleWatchLabel"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B14011341B009F17008DB534"
-               BuildableName = "AppleWatchLabelTests.xctest"
-               BlueprintName = "AppleWatchLabelTests"
+               BlueprintIdentifier = "B14011481B009F36008DB534"
+               BuildableName = "AppleWatchLabel WatchKit Extension.appex"
+               BlueprintName = "AppleWatchLabel WatchKit Extension"
                ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B14011341B009F17008DB534"
-               BuildableName = "AppleWatchLabelTests.xctest"
-               BlueprintName = "AppleWatchLabelTests"
-               ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B140111F1B009F16008DB534"
-            BuildableName = "AppleWatchLabel.app"
-            BlueprintName = "AppleWatchLabel"
+            BlueprintIdentifier = "B14011521B009F36008DB534"
+            BuildableName = "AppleWatchLabel WatchKit App.app"
+            BlueprintName = "AppleWatchLabel WatchKit App"
             ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/AppleWatchLabel">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B140111F1B009F16008DB534"
-            BuildableName = "AppleWatchLabel.app"
-            BlueprintName = "AppleWatchLabel"
+            BlueprintIdentifier = "B14011521B009F36008DB534"
+            BuildableName = "AppleWatchLabel WatchKit App.app"
+            BlueprintName = "AppleWatchLabel WatchKit App"
             ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B14011521B009F36008DB534"
+            BuildableName = "AppleWatchLabel WatchKit App.app"
+            BlueprintName = "AppleWatchLabel WatchKit App"
+            ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/AppleWatchLabel">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B140111F1B009F16008DB534"
-            BuildableName = "AppleWatchLabel.app"
-            BlueprintName = "AppleWatchLabel"
+            BlueprintIdentifier = "B14011521B009F36008DB534"
+            BuildableName = "AppleWatchLabel WatchKit App.app"
+            BlueprintName = "AppleWatchLabel WatchKit App"
             ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B14011521B009F36008DB534"
+            BuildableName = "AppleWatchLabel WatchKit App.app"
+            BlueprintName = "AppleWatchLabel WatchKit App"
+            ReferencedContainer = "container:AppleWatchLabel.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

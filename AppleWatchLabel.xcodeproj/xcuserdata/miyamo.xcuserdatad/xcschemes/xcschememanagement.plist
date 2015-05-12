@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppleWatchLabel WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>AppleWatchLabel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B140111F1B009F16008DB534</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B14011341B009F17008DB534</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B14011521B009F36008DB534</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
