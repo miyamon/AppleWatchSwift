@@ -8,7 +8,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AppleWatchLabel_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AppleWatchLabel_WatchKit_Extension">
                     <items>
                         <label alignment="left" text="Miyamo" id="xRe-Ba-TeO"/>
                         <dateLabel alignment="left" id="T9v-sV-4df">
@@ -35,7 +35,7 @@
         <!--movedInterface-->
         <scene sceneID="ibP-Zy-jO1">
             <objects>
-                <controller identifier="movedInterface" id="goX-6R-dm0" customClass="SecondInterfaceController"/>
+                <controller identifier="movedInterface" id="goX-6R-dm0" customClass="SecondInterfaceController" customModule="AppleWatchLabel_WatchKit_Extension"/>
             </objects>
             <point key="canvasLocation" x="492" y="297"/>
         </scene>

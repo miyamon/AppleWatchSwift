@@ -18,8 +18,9 @@
 		B14011541B009F36008DB534 /* AppleWatchLabel WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B14011531B009F36008DB534 /* AppleWatchLabel WatchKit App.app */; };
 		B140115E1B009F36008DB534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B140115D1B009F36008DB534 /* Images.xcassets */; };
 		B14011611B009F36008DB534 /* AppleWatchLabel WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B14011491B009F36008DB534 /* AppleWatchLabel WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B140116A1B011CA5008DB534 /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14011691B011CA5008DB534 /* SecondInterfaceController.swift */; };
-		B140116B1B01D51B008DB534 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B140115A1B009F36008DB534 /* Interface.storyboard */; };
+		B140116D1B01DA18008DB534 /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B140116C1B01DA18008DB534 /* SecondInterfaceController.swift */; };
+		B14011701B01DB83008DB534 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B140115A1B009F36008DB534 /* Interface.storyboard */; };
+		B14011711B01DB84008DB534 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B140115A1B009F36008DB534 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +80,7 @@
 		B14011591B009F36008DB534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B140115B1B009F36008DB534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		B140115D1B009F36008DB534 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B14011691B011CA5008DB534 /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
+		B140116C1B01DA18008DB534 /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				B140114D1B009F36008DB534 /* InterfaceController.swift */,
-				B14011691B011CA5008DB534 /* SecondInterfaceController.swift */,
+				B140116C1B01DA18008DB534 /* SecondInterfaceController.swift */,
 				B140114F1B009F36008DB534 /* Images.xcassets */,
 				B140114B1B009F36008DB534 /* Supporting Files */,
 			);
@@ -345,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B14011541B009F36008DB534 /* AppleWatchLabel WatchKit App.app in Resources */,
-				B140116B1B01D51B008DB534 /* Interface.storyboard in Resources */,
+				B14011701B01DB83008DB534 /* Interface.storyboard in Resources */,
 				B14011501B009F36008DB534 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14011711B01DB84008DB534 /* Interface.storyboard in Resources */,
 				B140115E1B009F36008DB534 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B140114E1B009F36008DB534 /* InterfaceController.swift in Sources */,
-				B140116A1B011CA5008DB534 /* SecondInterfaceController.swift in Sources */,
+				B140116D1B01DA18008DB534 /* SecondInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
